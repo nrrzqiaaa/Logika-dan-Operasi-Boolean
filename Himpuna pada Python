@@ -1,0 +1,8 @@
+# Himpunan pada python
+A = {1,2,3,4}
+B = {3,4,5,6}
+print("A U B =", A | B) # Untuk gabungan
+print("a n B =', A & B) # Untuk Irisan
+print("A - B =", A - B) # Untuk Anggota A saja
+print("B = A =", B - A) # Untuk Anggota B saja
+print("A O B =", A ^ B) # Untuk yang tepat hanya anggota dari salah satu himpunan
